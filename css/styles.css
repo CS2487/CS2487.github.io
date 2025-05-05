@@ -59,7 +59,9 @@
     --card-bg: #1e1e1e;
     --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     --border-color: #2d2d2d;
-}/* Base Styles */
+}
+
+/* Base Styles */
 * {
     margin: 5;
     padding: 0;
@@ -202,7 +204,9 @@ ul {
 
 .mt-4 {
     margin-top: var(--space-lg);
-}/* Buttons */
+}
+
+/* Buttons */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -459,7 +463,9 @@ ul {
 
 .mobile-menu-btn.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
-}/* Navbar Styles */
+}
+
+/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -1547,7 +1553,9 @@ ul {
 
 .stagger-item:nth-child(6) {
     transition-delay: 0.6s;
-}/* Responsive Design */
+}
+
+/* Responsive Design */
 
 /* Large Screens (1200px and up) */
 @media (min-width: 1200px) {
@@ -1895,7 +1903,6 @@ ul {
     }
 }
 
-/* High DPI Displays */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .profile-image {

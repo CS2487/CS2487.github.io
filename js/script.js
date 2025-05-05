@@ -529,7 +529,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initSmoothScrolling();
     initSkillBarsAnimation();
     initScrollReveal();
-    initTranslations(); // from translations section
+    initTranslations();
 
     window.addEventListener('scroll', () => {
         handleNavbarScroll();
